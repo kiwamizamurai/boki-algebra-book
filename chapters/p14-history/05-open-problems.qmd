@@ -1,0 +1,16 @@
+# Open Problems and Thesis Topics {#sec-p14-open-problems}
+
+Level: ★★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Questions for further study
+- Starting a survey with the methods of Part 0
+
+## Exercises
+
+- To be written.

@@ -1,0 +1,20 @@
+# Adjunctions {#sec-p08-adjunctions}
+
+Level: ★★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Free and forgetful adjunctions
+- Building the Grothendieck group as an adjunction
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

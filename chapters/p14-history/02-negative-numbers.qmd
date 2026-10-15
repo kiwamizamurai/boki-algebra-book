@@ -1,0 +1,19 @@
+# Negative Numbers and Bookkeeping {#sec-p14-negative-numbers}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- The role of negative numbers in the development of double entry
+
+## Exercises
+
+- To be written.
+
+## Further reading
+
+- @peters1978

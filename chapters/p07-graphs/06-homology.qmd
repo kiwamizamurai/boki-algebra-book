@@ -1,0 +1,20 @@
+# An Introduction to Graph Homology {#sec-p07-homology}
+
+Level: ★★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Chain complexes, boundary maps, and homology groups
+- Bookkeeping in the language of homology
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

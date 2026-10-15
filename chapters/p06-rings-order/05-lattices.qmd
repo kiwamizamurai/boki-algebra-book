@@ -1,0 +1,20 @@
+# Lattices and the Chart of Accounts {#sec-p06-lattices}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Lattices and Boolean algebras
+- Consistent aggregation in a chart of accounts
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

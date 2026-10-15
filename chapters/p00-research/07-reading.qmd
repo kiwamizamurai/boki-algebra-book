@@ -1,0 +1,33 @@
+# Reading Papers {#sec-reading}
+
+A search produces more papers than anyone can read in full. You need a way to decide quickly which papers matter, and a way to read the ones that do.
+
+## Read in passes
+
+@keshav2007 describes a practical three-pass method for reading research papers and explains how to use it for a literature survey. This book borrows the structure of reading a paper more than once, with each pass deciding whether the next is worth the time. Our passes are adapted for mathematical papers, and their details are ours.
+
+1. **Survey.** Read the title, abstract, section headings, and conclusion. Decide whether the paper answers one of your questions from @sec-question.
+2. **Statements.** Read every definition and every theorem statement, and skip the proofs. Write each definition in your own notation.
+3. **Proofs.** Read the proofs of the results you will use. Check each step, or formalize it.
+
+The first pass exists to filter, so expect most papers to stop there.
+
+## Extracting the main claim
+
+After the first pass, write the paper's main claim in one or two sentences, using only what the paper says. For @ellerman2014 the abstract gives us the following.
+
+- Double-entry bookkeeping implicitly uses a specific mathematical construction: the group of differences built from pairs of unsigned numbers, which the paper calls the Pacioli group.
+- This construction was formulated abstractly in mathematics only in the nineteenth century, although bookkeeping had used it for centuries.
+- A precise mathematical treatment yields a generalization of double entry to multi-dimensional vectors, which typically represent the different types of property in an enterprise or a household.
+
+Each sentence above restates the abstract. None of them adds a claim the abstract does not make. When a summary goes beyond the source, mark the extra part as your own interpretation.
+
+## Reading a paper in a field you do not know
+
+Papers on the algebra of bookkeeping come from accounting, mathematics, and computer science. A mathematician may not know what a "trial balance" is, and an accountant may not know what a "group of differences" is. Keep a two-column glossary in your log: the term as the paper uses it, and its meaning in the other field. Part II of this book introduces the bookkeeping terms, and the glossary in the appendix pairs them with their mathematical counterparts.
+
+## Exercises
+
+1. Apply the first pass to five papers from your log. Record, for each, whether it answers one of your questions.
+2. For one paper that passed, write its main claim in at most three sentences, using only what the paper says.
+3. Choose one definition from that paper and rewrite it in your own notation.

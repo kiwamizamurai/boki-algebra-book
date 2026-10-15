@@ -1,0 +1,40 @@
+# Finding the First Paper {#sec-first-paper}
+
+A literature search needs a starting point: one paper that is on topic. From that paper you can follow references and citations (@sec-citations). This chapter shows how we found ours and how we checked its bibliographic data.
+
+## The first query
+
+Our first search used a general web search engine with the query
+
+```
+"algebra" bookkeeping double-entry book filetype:pdf
+```
+
+The `filetype:pdf` part asks for PDF files, and all but one of the results we received were PDFs. Among the results was a PDF of @ellerman1985 on the author's own website, and a PDF of @ellerman2014 on arXiv. Both are by the same author. The abstract of @ellerman2014 describes bookkeeping in terms of a group, which matched our first question in @sec-question. We chose @ellerman2014 as the starting paper because it is the more recent of the two. A recent paper is a good start because its reference list can lead back to earlier work.
+
+## One paper, several versions
+
+A paper often exists in more than one version. @ellerman2014 has at least three records:
+
+| Version | Identifier | Date |
+| --- | --- | --- |
+| arXiv preprint | arXiv:1407.1898 | 2014-07-07 |
+| SSRN posting | DOI 10.2139/ssrn.2463442 | 2014 |
+| Journal article in *Accounting Education*, vol. 23, no. 5, pp. 483–501 | DOI 10.1080/09639284.2014.949803 | 2014 |
+
+The arXiv date comes from the arXiv API. The other two rows come from the records registered with Crossref, which we queried through its public API. When you cite a paper, cite the published version, and record the preprint as a freely readable copy.
+
+## Checking the bibliographic data
+
+A search result is a pointer to a paper, and the details it shows can be incomplete. Before a reference enters the bibliography of this book, we check it against a record kept by the publisher or by a registry.
+
+1. **arXiv.** The arXiv API returns the title, authors, abstract, subject category, and first submission date of a preprint. We queried it with `au:Ellerman AND abs:bookkeeping` and received exactly one record, arXiv:1407.1898.
+2. **Crossref.** We sent each journal article and conference paper in this book's bibliography, as free text, to Crossref's public API (`api.crossref.org/works` with the `query.bibliographic` parameter). It returned the closest registered records with their DOI, journal, volume, issue, pages, and date.
+
+The Crossref result is only a candidate. Compare it with the reference you are checking: same authors, same title, same year. @sec-limits shows a case where the best match was a different record.
+
+## Exercises
+
+1. Find a starting paper for your topic. Explain why you chose it over the other results.
+2. Find every version of your starting paper (preprint, journal article, repository copy). Record each version's identifier and date in your log.
+3. Send the citation of your starting paper to the Crossref API and compare the returned record with what you have. Note any differences.

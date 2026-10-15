@@ -1,0 +1,19 @@
+# Types That Rule Out Unbalanced Entries {#sec-p10-types}
+
+Level: ★★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Type systems that make an unbalanced entry impossible to write
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

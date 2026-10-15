@@ -1,0 +1,17 @@
+# Transactions and Journal Entries {#sec-p02-journal-entries}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- What counts as a transaction
+- Debits and credits
+- The journal
+
+## Exercises
+
+- To be written.

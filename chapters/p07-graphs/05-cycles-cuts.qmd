@@ -1,0 +1,20 @@
+# Cycle Space and Cut Space {#sec-p07-cycles-cuts}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Kernel and image of the incidence matrix
+- Transactions that return money to where it started
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

@@ -1,0 +1,3 @@
+# Part VIII: Category Theory {.unnumbered}
+
+Part VIII introduces categories, functors, and universal properties, and returns to earlier constructions in that language.

@@ -1,0 +1,45 @@
+# Following Citations {#sec-citations}
+
+Once you have one good paper, the papers connected to it lead to the rest of the literature. This chapter covers three ways to follow those connections: by hand through references and citations, with a similarity graph, and with a scholarly database API.
+
+## Backward and forward
+
+A paper connects to the literature in two directions.
+
+- **Backward**: the works it cites, listed in its references. These are older.
+- **Forward**: the later works that cite it. Google Scholar shows these under "Cited by."
+
+Google Scholar's search help gives a rule of thumb for choosing a direction. If your results are too specific, look at the works they cite, which tend to be more general. If your results are too basic, look at the papers that cite them, which tend to be newer and more specific.
+
+We repeated both steps from each new relevant paper. @wohlin2014 gives guidelines for conducting literature reviews with a snowballing approach, evaluates them by replicating a published systematic review, and concludes that snowballing can be a good alternative to database searches as a first search strategy.
+
+## Similarity graphs: Connected Papers
+
+Connected Papers draws a graph around one "origin" paper. According to its own description, it analyzes on the order of 50,000 papers and keeps the few dozen with the strongest connections to the origin. The connection measure is based on *co-citation* and *bibliographic coupling*: two papers whose citations and references overlap heavily are presumed more likely to treat related subject matter. Papers that never cite each other can therefore sit close together. The service states that its graph is not a citation tree. Its data comes from the Semantic Scholar paper corpus.
+
+We built a graph with @ellerman2014 as the origin. Among the papers it placed in the graph were
+
+- earlier work by the same author: @ellerman1985 and @ellerman1986;
+- @rambaud2010, a book on algebraic models for accounting systems;
+- matrix accounting: @leech1986;
+- linear algebra applied to financial statements: @arya2000 and @arya2004;
+- history: @peters1978 and @stone2021.
+
+The same graph also contained papers on unrelated subjects, such as a strategic analysis of small and medium-sized accounting firms in Jing Zhou and a study of the social consequences of the indenture system in Fiji. A similarity graph measures overlap in citations, and overlap does not guarantee a shared topic. Read the title and abstract of every node before adding it to your log.
+
+A second graph, with @rambaud2010 as the origin, added earlier algebraic work: @nehmer1997 and @rambaud2005.
+
+## Database APIs: Semantic Scholar and OpenAlex
+
+For larger searches, a program can follow citations for you through a database API.
+
+- **Semantic Scholar** offers the Academic Graph API. Most endpoints work without an API key, but unauthenticated requests share a rate limit of 1,000 requests per second across all such users and may be throttled further when traffic is heavy. A personal API key starts with a limit of one request per second.
+- **OpenAlex** describes itself as a free and open catalog of the world's scholarly research system. Its data is released under the CC0 license and is available through an API and as a bulk download.
+
+When we sent unauthenticated search requests to the Semantic Scholar API on 15 October 2026, it answered "Too Many Requests." @sec-limits returns to this.
+
+## Exercises
+
+1. Take your starting paper from @sec-first-paper. List five works it cites and five works that cite it.
+2. Build a Connected Papers graph around your starting paper. For each node, decide from its title and abstract whether it belongs in your log. How many nodes did you reject?
+3. Write a short program that queries the OpenAlex API for the works that cite your starting paper. Compare its list with Google Scholar's "Cited by" list.

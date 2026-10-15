@@ -1,0 +1,21 @@
+# Relations and Equivalence Relations {#sec-p01-relations}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Relations and their properties
+- Equivalence relations, equivalence classes, and quotient sets
+- Bookkeeping example: two records that produce the same balance
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

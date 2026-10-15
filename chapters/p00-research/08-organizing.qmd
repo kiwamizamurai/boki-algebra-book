@@ -1,0 +1,36 @@
+# Organizing What You Find {#sec-organizing}
+
+A search that is not recorded has to be repeated. This chapter covers the three records we keep: the research log, the bibliography file, and a map of research lines.
+
+## The research log
+
+The log records each search as it happens: date, tool, exact query, number of results, and the papers kept. It also has a place for references that are not yet checked (@sec-older). This book's log is the file `research/log.md`, and the worked examples in Part 0 come from it.
+
+## The bibliography file
+
+This book stores references in a BibTeX file, `references.bib`. Quarto, the system used to build this book, generates citations and the bibliography through Pandoc. It needs a document with citations, a bibliographic data source such as a BibLaTeX or BibTeX file, and, optionally, a CSL file that sets the citation style. A document names its bibliography in its YAML header, for example `bibliography: references.bib`, and cites an entry by its key, for example `[@ellerman2014]`.
+
+Each entry in this book's file was checked before it was added (@sec-first-paper). The file contains only bibliographic fields: authors, title, venue, volume, issue, pages, year, and DOI. A field that we could not check is left out, even when a search snippet showed a value for it.
+
+## A map of research lines
+
+Grouping the papers by mathematical approach shows how the field divides. Here are the references in this book's bibliography, grouped that way. The later parts of this book follow the same lines.
+
+| Approach | Works | Years |
+| --- | --- | --- |
+| Groups and the group of differences | @ellerman1985, @ellerman1986, @ellerman2014 | 1985–2014 |
+| Algebraic models and automata | @nehmer1997, @rambaud2005, @rambaud2010 | 1997–2010 |
+| Matrices and linear algebra | @leech1986, @arya2000, @arya2004 | 1986–2004 |
+| Graphs | @liang2023 | 2023 |
+| Category theory | @katis2008 | 2008 (written 1998) |
+| Axioms and extensions of double entry | @ijiri1965, @ijiri1986 | 1965–1986 |
+| Monoids, groups, and matrices in Japanese | @ozawa2023matrix, @ozawa2023cashflow, @ozawa2026 | 2023–2026 |
+| History and early theory | @sprague1880, @sprague1908, @peters1978, @stone2021 | 1880–2021 |
+
+A paper can belong to more than one line. @ellerman2014, for example, describes the group of differences and, according to its abstract, generalizes it to vectors. Put each paper where its main contribution lies, and note the other lines in the log.
+
+## Exercises
+
+1. Create a BibTeX file for your topic. Add five entries, each checked against a publisher page, a registry, or an archive record.
+2. Write a short Quarto document that cites all five entries, and render it. Fix any entry that fails to render.
+3. Group the papers in your log into research lines, and draw the table for your topic.

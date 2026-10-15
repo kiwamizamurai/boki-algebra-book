@@ -1,0 +1,21 @@
+# Binary Operations {#sec-p03-operations}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Binary operations, associativity, commutativity
+- Identity and inverse elements
+- Bookkeeping example: adding amounts and combining accounts
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

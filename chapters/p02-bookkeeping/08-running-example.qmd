@@ -1,0 +1,17 @@
+# The Running Example {#sec-p02-running-example}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- One company's transactions for one year
+- Its journal, ledger, trial balance, and statements
+- How later parts reuse this example
+
+## Exercises
+
+- To be written.

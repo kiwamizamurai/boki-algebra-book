@@ -1,0 +1,21 @@
+# Orders {#sec-p01-orders}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Partial orders and total orders
+- Upper and lower bounds, suprema and infima
+- Bookkeeping example: the hierarchy of a chart of accounts
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

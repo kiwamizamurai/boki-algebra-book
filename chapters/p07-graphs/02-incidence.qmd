@@ -1,0 +1,21 @@
+# The Incidence Matrix {#sec-p07-incidence}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- The incidence matrix of a directed graph
+- Its column sums
+- The trial balance and Kirchhoff's current law
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

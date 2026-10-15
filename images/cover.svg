@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400" role="img" aria-labelledby="t">
+  <title id="t">Learning University Mathematics through the Algebra of Bookkeeping</title>
+  <rect width="1600" height="2400" fill="#1d2b45"/>
+  <rect x="80" y="80" width="1440" height="2240" fill="none" stroke="#d9c89e" stroke-width="4"/>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#f3ead6" text-anchor="middle">
+    <text x="800" y="330" font-size="92" letter-spacing="2">Learning University</text>
+    <text x="800" y="450" font-size="92" letter-spacing="2">Mathematics</text>
+    <text x="800" y="560" font-size="58" font-style="italic" fill="#d9c89e">through the</text>
+    <text x="800" y="690" font-size="92" letter-spacing="2">Algebra of Bookkeeping</text>
+  </g>
+  <g stroke="#d9c89e" stroke-width="10" stroke-linecap="round">
+    <line x1="330" y1="1020" x2="1270" y2="1020"/>
+    <line x1="800" y1="1020" x2="800" y2="1660"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#d9c89e" text-anchor="middle" font-size="64">
+    <text x="565" y="980">Debit</text>
+    <text x="1035" y="980">Credit</text>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#f3ead6" text-anchor="middle" font-size="120" font-style="italic">
+    <text x="565" y="1240">a</text>
+    <text x="1035" y="1240">b</text>
+    <text x="565" y="1520">c</text>
+    <text x="1035" y="1520">d</text>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#f3ead6" text-anchor="middle" font-size="76">
+    <text x="800" y="1850" font-style="italic">(a, b) ~ (c, d)  ⟺  a + d = b + c</text>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#d9c89e" text-anchor="middle">
+    <text x="800" y="2180" font-size="64" letter-spacing="6">KIWAMIZAMURAI</text>
+  </g>
+</svg>

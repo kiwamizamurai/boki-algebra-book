@@ -1,0 +1,19 @@
+# The Origins of Double Entry {#sec-p14-origins}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Luca Pacioli and the connection between algebra and double entry
+
+## Exercises
+
+- To be written.
+
+## Further reading
+
+- @stone2021

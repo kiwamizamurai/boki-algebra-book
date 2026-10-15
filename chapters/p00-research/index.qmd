@@ -1,0 +1,7 @@
+# Part 0: Research Methods {.unnumbered}
+
+The rest of this book teaches mathematics through bookkeeping. Part 0 comes first because it answers a question a careful reader will ask: where does this material come from, and how do we know it is right?
+
+Part 0 follows one literature search from start to finish. The topic is the algebra of bookkeeping itself, so the papers it finds are the sources of the later parts. @sec-question to @sec-reading show how to find and read those sources. @sec-organizing and @sec-writing-up show how to record them and summarize them. @sec-limits collects the places where tools, records, and our own drafts went wrong.
+
+Each chapter ends with exercises that apply the same steps to a topic of your choice. A reader who wants to start the mathematics at once can go to Part I and come back to Part 0 when a later chapter cites a source.

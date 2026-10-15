@@ -1,0 +1,21 @@
+# Monoidal Categories and String Diagrams {#sec-p08-monoidal}
+
+Level: ★★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Monoidal categories
+- Drawing string diagrams
+- Transactions as string diagrams
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

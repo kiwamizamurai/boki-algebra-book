@@ -1,0 +1,22 @@
+# Maps {#sec-p01-maps}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Maps, domain, codomain, image, preimage
+- Injective, surjective, and bijective maps
+- Composition and inverse maps
+- Bookkeeping example: a journal entry as a map from accounts to amounts
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

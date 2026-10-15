@@ -1,0 +1,20 @@
+# Using Mathlib {#sec-p11-mathlib}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- The algebraic hierarchy: `Monoid`, `AddCommGroup`, `Module`
+- Finding lemmas with `exact?` and the documentation
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

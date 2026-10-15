@@ -1,0 +1,35 @@
+# Asking a Researchable Question {#sec-question}
+
+Every search starts from a question. A vague question produces a vague search, so the first task is to turn a loose interest into questions that a database can answer.
+
+## From an interest to questions
+
+This book began with a loose interest: *what is double-entry bookkeeping, mathematically?* A database cannot answer that sentence directly. Looking back at our search, it answered the following smaller questions, each of which names something a database can find. Writing such questions down at the start, as we recommend here, makes the search easier to plan.
+
+1. Has anyone described double-entry bookkeeping as an algebraic structure, such as a group or a monoid?
+2. Has anyone written bookkeeping with matrices or vectors?
+3. Has anyone described bookkeeping as a graph or a network?
+4. Has anyone used category theory for bookkeeping?
+5. Has anyone stated axioms for accounting measurement?
+6. When did these ideas appear, and who wrote them first?
+
+Each question points to a branch of mathematics, and each branch has its own vocabulary. @sec-keywords turns these questions into search terms.
+
+## Deciding the scope
+
+A question also needs boundaries. Our search had four.
+
+- **Fields.** The work could come from accounting, mathematics, computer science, or economics. We kept all four in scope, because a paper on "ledgers" in computer science may answer the same question as a paper on "accounts" in accounting.
+- **Languages.** We searched in English and in Japanese. Part of the literature on this topic is written in Japanese (@sec-japanese).
+- **Time.** We set no lower limit on the publication year. According to @ellerman2014, the double-entry method was in business use for over five centuries, and the oldest work in this book's bibliography dates from 1880 (@sec-older).
+- **Kind of source.** We accepted journal articles, preprints, books, and university repository papers. We excluded copies of works posted by sites that are not the publisher or the author (@sec-limits).
+
+## Writing the question down
+
+Write the question and the scope in a research log before your first search. The log is a plain text file with dates. Each search later adds an entry: the date, the tool, the exact query, and what came back. The worked examples in this part come from this book's log, `research/log.md`.
+
+## Exercises
+
+1. Choose a topic you know a little about. Write one loose question about it, then split it into at least four questions that each name something a database could find.
+2. For your topic, decide the four boundaries in this chapter: fields, languages, time, and kind of source. Give a reason for each decision.
+3. Start a research log for your topic. Record today's date and the questions from Exercise 1.

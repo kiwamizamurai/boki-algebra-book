@@ -1,0 +1,3 @@
+# Part II: Bookkeeping Basics {.unnumbered}
+
+Part II teaches the bookkeeping that the rest of the book formalizes. It uses no mathematics beyond arithmetic.

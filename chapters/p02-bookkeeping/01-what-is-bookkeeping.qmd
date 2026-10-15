@@ -1,0 +1,16 @@
+# What Bookkeeping Is {#sec-p02-what-is-bookkeeping}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Recording, calculating, and reporting
+- Single entry and double entry
+
+## Exercises
+
+- To be written.

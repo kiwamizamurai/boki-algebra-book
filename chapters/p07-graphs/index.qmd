@@ -1,0 +1,3 @@
+# Part VII: Graphs and Networks {.unnumbered}
+
+Part VII draws accounts as vertices and transactions as edges.

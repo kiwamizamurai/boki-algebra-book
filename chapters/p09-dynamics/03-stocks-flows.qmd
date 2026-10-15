@@ -1,0 +1,20 @@
+# Derivatives and Integrals {#sec-p09-stocks-flows}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Balances as functions of time: stocks and flows
+- The fundamental theorem of calculus and the link between balances and transactions
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

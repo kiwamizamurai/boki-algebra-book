@@ -1,0 +1,21 @@
+# The Grothendieck Group {#sec-p04-grothendieck}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Building a group from a commutative monoid
+- The Pacioli group as a Grothendieck group
+- The universal property
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language>
+<language name="Lean" section="Sources" version="1" kateversion="5.0" extensions="*.lean" mimetype="text/x-lean" license="Apache-2.0">
+  <highlighting>
+    <list name="keywords">
+      <item>theorem</item>
+      <item>def</item>
+      <item>abbrev</item>
+      <item>example</item>
+      <item>axiom</item>
+      <item>class</item>
+      <item>structure</item>
+      <item>instance</item>
+      <item>inductive</item>
+      <item>extends</item>
+      <item>where</item>
+      <item>deriving</item>
+      <item>mutual</item>
+      <item>universe</item>
+      <item>variable</item>
+      <item>module</item>
+      <item>import</item>
+      <item>open</item>
+      <item>export</item>
+      <item>section</item>
+      <item>namespace</item>
+      <item>end</item>
+      <item>notation</item>
+      <item>infix</item>
+      <item>infixl</item>
+      <item>infixr</item>
+      <item>prefix</item>
+      <item>postfix</item>
+      <item>macro</item>
+      <item>syntax</item>
+      <item>set_option</item>
+      <item>fun</item>
+      <item>by</item>
+      <item>have</item>
+      <item>show</item>
+      <item>from</item>
+      <item>suffices</item>
+      <item>using</item>
+      <item>let</item>
+      <item>calc</item>
+      <item>match</item>
+      <item>with</item>
+      <item>if</item>
+      <item>then</item>
+      <item>else</item>
+      <item>do</item>
+      <item>return</item>
+      <item>for</item>
+      <item>in</item>
+      <item>forall</item>
+      <item>exists</item>
+      <item>termination_by</item>
+      <item>decreasing_by</item>
+      <item>omit</item>
+      <item>opaque</item>
+    </list>
+    <list name="modifiers">
+      <item>private</item>
+      <item>protected</item>
+      <item>public</item>
+      <item>noncomputable</item>
+      <item>partial</item>
+      <item>unsafe</item>
+      <item>local</item>
+      <item>scoped</item>
+      <item>meta</item>
+    </list>
+    <list name="sorts">
+      <item>Prop</item>
+      <item>Type</item>
+      <item>Sort</item>
+    </list>
+    <list name="constants">
+      <item>true</item>
+      <item>false</item>
+    </list>
+    <contexts>
+      <context name="Normal" attribute="Normal Text" lineEndContext="#stay">
+        <StringDetect attribute="Comment" context="BlockComment" String="/-"/>
+        <Detect2Chars attribute="Comment" context="LineComment" char="-" char1="-"/>
+        <DetectChar attribute="String" context="String" char="&quot;"/>
+        <keyword attribute="Keyword" String="keywords"/>
+        <keyword attribute="Modifier" String="modifiers"/>
+        <keyword attribute="Data Type" String="sorts"/>
+        <keyword attribute="Constant" String="constants"/>
+        <RegExpr attribute="Command" String="#[a-z_]+"/>
+        <Int attribute="Decimal"/>
+      </context>
+      <context name="LineComment" attribute="Comment" lineEndContext="#pop"/>
+      <context name="BlockComment" attribute="Comment" lineEndContext="#stay">
+        <StringDetect attribute="Comment" context="BlockComment" String="/-"/>
+        <Detect2Chars attribute="Comment" context="#pop" char="-" char1="/"/>
+      </context>
+      <context name="String" attribute="String" lineEndContext="#stay">
+        <DetectChar attribute="Special Char" context="StringEscape" char="\"/>
+        <DetectChar attribute="String" context="#pop" char="&quot;"/>
+      </context>
+      <context name="StringEscape" attribute="Special Char" lineEndContext="#pop">
+        <RegExpr attribute="Special Char" context="#pop" String="."/>
+      </context>
+    </contexts>
+    <itemDatas>
+      <itemData name="Normal Text" defStyleNum="dsNormal"/>
+      <itemData name="Keyword" defStyleNum="dsKeyword"/>
+      <itemData name="Modifier" defStyleNum="dsAttribute"/>
+      <itemData name="Data Type" defStyleNum="dsDataType"/>
+      <itemData name="Constant" defStyleNum="dsConstant"/>
+      <itemData name="Command" defStyleNum="dsPreprocessor"/>
+      <itemData name="Decimal" defStyleNum="dsDecVal"/>
+      <itemData name="String" defStyleNum="dsString"/>
+      <itemData name="Special Char" defStyleNum="dsSpecialChar"/>
+      <itemData name="Comment" defStyleNum="dsComment"/>
+    </itemDatas>
+  </highlighting>
+  <general>
+    <comments>
+      <comment name="singleLine" start="--"/>
+      <comment name="multiLine" start="/-" end="-/"/>
+    </comments>
+    <keywords casesensitive="1" weakDeliminator="_'!?."/>
+  </general>
+</language>

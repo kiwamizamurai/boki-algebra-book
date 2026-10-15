@@ -1,0 +1,23 @@
+# Bookkeeping Graphs {#sec-p07-bookkeeping-graphs}
+
+Level: ★★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Computational theory of bookkeeping graphs
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.
+
+## Further reading
+
+- @liang2023

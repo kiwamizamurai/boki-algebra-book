@@ -1,0 +1,16 @@
+# The Accounting Equation {#sec-p02-accounting-equation}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Assets, liabilities, and equity
+- Revenue, expenses, and changes in equity
+
+## Exercises
+
+- To be written.

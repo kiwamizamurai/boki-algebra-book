@@ -1,0 +1,21 @@
+# Vector Spaces {#sec-p05-vector-spaces}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Vector spaces and subspaces
+- Linear independence, bases, and dimension
+- Bookkeeping example: balance vectors indexed by accounts
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

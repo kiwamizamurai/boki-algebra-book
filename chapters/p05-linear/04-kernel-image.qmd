@@ -1,0 +1,20 @@
+# Kernel, Image, and Rank {#sec-p05-kernel-image}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Kernel, image, and the rank-nullity theorem
+- Balanced entries as the subspace where the components sum to zero
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

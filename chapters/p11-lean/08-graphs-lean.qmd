@@ -1,0 +1,19 @@
+# Graphs and Incidence Matrices in Lean {#sec-p11-graphs-lean}
+
+Level: ★★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Bookkeeping graphs and their incidence matrices
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

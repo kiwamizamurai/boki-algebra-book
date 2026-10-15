@@ -1,0 +1,6 @@
+[tools]
+"aqua:quarto-dev/quarto-cli" = "1.10.19"
+"github:leanprover/elan" = "4.2.4"
+
+[env]
+_.path = ["~/.elan/bin"]

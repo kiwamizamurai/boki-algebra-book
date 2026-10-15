@@ -1,0 +1,20 @@
+# Ordered Groups {#sec-p06-ordered-groups}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Ordered groups and positive cones
+- Unsigned debit and credit amounts as an ordered structure
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

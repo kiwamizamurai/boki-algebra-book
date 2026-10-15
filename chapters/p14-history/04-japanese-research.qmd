@@ -1,0 +1,19 @@
+# Research in Japanese {#sec-p14-japanese-research}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Bookkeeping algebra models in Japanese research
+
+## Exercises
+
+- To be written.
+
+## Further reading
+
+- @ozawa2023matrix; @ozawa2023cashflow; @ozawa2026

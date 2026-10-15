@@ -1,0 +1,21 @@
+# T-Accounts as Pairs {#sec-p04-t-accounts}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- A T-account as a pair (debit total, credit total)
+- Adding pairs
+- When two pairs describe the same balance
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.
