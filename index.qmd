@@ -10,4 +10,4 @@ Before any mathematics, Part 0 shows how the material in this book was found. It
 
 ## A rule this book follows
 
-Every factual claim in this book is checked against a source before it is written down, and a claim that cannot be checked is left out. Bibliographic data was checked against Crossref, arXiv, CiNii Research, Internet Archive catalog records, publishers' pages, or the papers themselves. The searches behind Part 0 are recorded in `research/log.md`.
+Every factual claim in this book is checked against a source before it is written down, and a claim that cannot be checked is left out. Bibliographic data was checked against Crossref, arXiv, CiNii Research, Internet Archive catalog records, publishers' pages, or the papers themselves.

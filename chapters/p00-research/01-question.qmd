@@ -26,7 +26,7 @@ A question also needs boundaries. Our search had four.
 
 ## Writing the question down
 
-Write the question and the scope in a research log before your first search. The log is a plain text file with dates. Each search later adds an entry: the date, the tool, the exact query, and what came back. The worked examples in this part come from this book's log, `research/log.md`.
+Write the question and the scope in a research log before your first search. The log is a plain text file with dates. Each search later adds an entry: the date, the tool, the exact query, and what came back. The worked examples in this part describe searches we ran on 15 October 2026.
 
 ## Exercises
 

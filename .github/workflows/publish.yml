@@ -21,7 +21,9 @@ jobs:
           tinytex: true
 
       - name: Install Japanese typesetting packages
-        run: ~/.TinyTeX/bin/*-linux/tlmgr install luatexja haranoaji
+        run: |
+          ~/.TinyTeX/bin/*-linux/tlmgr update --self
+          ~/.TinyTeX/bin/*-linux/tlmgr install luatexja haranoaji
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2

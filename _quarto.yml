@@ -194,6 +194,8 @@ format:
     papersize: a4
     pdf-engine: lualatex
     CJKmainfont: HaranoAjiMincho-Regular
+    CJKoptions:
+      - BoldFont=HaranoAjiMincho-Bold
     syntax-definitions:
       - syntax/lean4.xml
     colorlinks: true

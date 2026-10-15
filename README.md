@@ -28,7 +28,7 @@ Quarto does not run Lean code, so the two have separate jobs.
 
 ## Bibliography
 
-The references used in the book are in [`references.bib`](references.bib). Every entry was checked against Crossref, arXiv, CiNii Research, an Internet Archive catalog record, a publisher's page, or the paper itself. The searches that found them are recorded in [`research/log.md`](research/log.md), and Part 0 of the book walks through them.
+The references used in the book are in [`references.bib`](references.bib). Every entry was checked against Crossref, arXiv, CiNii Research, an Internet Archive catalog record, a publisher's page, or the paper itself. Part 0 of the book walks through the searches that found them.
 
 ## Contents (plan)
 
@@ -226,8 +226,6 @@ boki-algebra-book/
 ├── _quarto.yml
 ├── index.qmd
 ├── references.bib
-├── research/
-│   └── log.md
 ├── chapters/
 │   └── p00-research/
 ├── mise.toml
