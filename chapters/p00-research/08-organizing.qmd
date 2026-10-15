@@ -1,10 +1,10 @@
 # Organizing What You Find {#sec-organizing}
 
-A search that is not recorded has to be repeated. This chapter covers the three records we keep: the research log, the bibliography file, and a map of research lines.
+A search that is not recorded has to be repeated. This chapter covers three records worth keeping: the research log, the bibliography file, and a map of research lines.
 
 ## The research log
 
-The log records each search as it happens: date, tool, exact query, number of results, and the papers kept. It also has a place for references that are not yet checked (@sec-older). This book's log is the file `research/log.md`, and the worked examples in Part 0 come from it.
+The log records each search as it happens: date, tool, exact query, number of results, and the papers kept. It also has a place for references that are not yet checked (@sec-older).
 
 ## The bibliography file
 
