@@ -1,0 +1,8 @@
+*.pdf
+/_book/
+/.quarto/
+/lean/.lake/
+.DS_Store
+.claude/settings.local.json
+
+**/*.quarto_ipynb
