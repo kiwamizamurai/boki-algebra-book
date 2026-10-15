@@ -1,0 +1,22 @@
+# Propositions and Logic {#sec-p01-propositions}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Propositions and truth values
+- Connectives: and, or, not, implies; truth tables
+- Quantifiers: for all, there exists; negating quantified statements
+- Bookkeeping example: stating the balance rule as a quantified proposition
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

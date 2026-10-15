@@ -1,0 +1,202 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Learning University Mathematics through the Algebra of Bookkeeping"
+  author: "kiwamizamurai"
+  description: "A textbook that teaches university mathematics through double-entry bookkeeping, with the main theorems formalized in Lean 4."
+  cover-image: images/cover.svg
+  cover-image-alt: "Cover: the book title above a T-account with debit amounts a and c and credit amounts b and d, and the relation (a, b) ~ (c, d) if and only if a + d = b + c."
+  site-url: https://kiwamizamurai.github.io/boki-algebra-book
+  repo-url: https://github.com/kiwamizamurai/boki-algebra-book
+  repo-branch: main
+  repo-actions: [edit, issue, source]
+  downloads: [pdf]
+  search: true
+  reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
+  output-file: boki-algebra-book
+  chapters:
+    - index.qmd
+    - part: chapters/p00-research/index.qmd
+      chapters:
+        - chapters/p00-research/01-question.qmd
+        - chapters/p00-research/02-keywords.qmd
+        - chapters/p00-research/03-first-paper.qmd
+        - chapters/p00-research/04-citations.qmd
+        - chapters/p00-research/05-japanese.qmd
+        - chapters/p00-research/06-older-literature.qmd
+        - chapters/p00-research/07-reading.qmd
+        - chapters/p00-research/08-organizing.qmd
+        - chapters/p00-research/09-limits.qmd
+        - chapters/p00-research/10-writing-up.qmd
+    - part: chapters/p01-logic/index.qmd
+      chapters:
+        - chapters/p01-logic/01-propositions.qmd
+        - chapters/p01-logic/02-proofs.qmd
+        - chapters/p01-logic/03-sets.qmd
+        - chapters/p01-logic/04-maps.qmd
+        - chapters/p01-logic/05-relations.qmd
+        - chapters/p01-logic/06-orders.qmd
+        - chapters/p01-logic/07-induction.qmd
+        - chapters/p01-logic/08-numbers.qmd
+    - part: chapters/p02-bookkeeping/index.qmd
+      chapters:
+        - chapters/p02-bookkeeping/01-what-is-bookkeeping.qmd
+        - chapters/p02-bookkeeping/02-accounting-equation.qmd
+        - chapters/p02-bookkeeping/03-journal-entries.qmd
+        - chapters/p02-bookkeeping/04-accounts.qmd
+        - chapters/p02-bookkeeping/05-trial-balance.qmd
+        - chapters/p02-bookkeeping/06-closing.qmd
+        - chapters/p02-bookkeeping/07-statements.qmd
+        - chapters/p02-bookkeeping/08-running-example.qmd
+    - part: chapters/p03-groups/index.qmd
+      chapters:
+        - chapters/p03-groups/01-operations.qmd
+        - chapters/p03-groups/02-monoids.qmd
+        - chapters/p03-groups/03-groups.qmd
+        - chapters/p03-groups/04-subgroups.qmd
+        - chapters/p03-groups/05-homomorphisms.qmd
+        - chapters/p03-groups/06-quotients.qmd
+        - chapters/p03-groups/07-products.qmd
+        - chapters/p03-groups/08-free-abelian.qmd
+    - part: chapters/p04-pacioli/index.qmd
+      chapters:
+        - chapters/p04-pacioli/01-t-accounts.qmd
+        - chapters/p04-pacioli/02-pacioli-group.qmd
+        - chapters/p04-pacioli/03-entries-and-trial-balance.qmd
+        - chapters/p04-pacioli/04-accounting-equation.qmd
+        - chapters/p04-pacioli/05-grothendieck.qmd
+        - chapters/p04-pacioli/06-monoid-and-group.qmd
+        - chapters/p04-pacioli/07-multidimensional.qmd
+        - chapters/p04-pacioli/08-errors.qmd
+    - part: chapters/p05-linear/index.qmd
+      chapters:
+        - chapters/p05-linear/01-vector-spaces.qmd
+        - chapters/p05-linear/02-matrices.qmd
+        - chapters/p05-linear/03-matrix-bookkeeping.qmd
+        - chapters/p05-linear/04-kernel-image.qmd
+        - chapters/p05-linear/05-linear-systems.qmd
+        - chapters/p05-linear/06-least-squares.qmd
+        - chapters/p05-linear/07-duality.qmd
+        - chapters/p05-linear/08-aggregation.qmd
+        - chapters/p05-linear/09-eigenvalues.qmd
+        - chapters/p05-linear/10-input-output.qmd
+    - part: chapters/p06-rings-order/index.qmd
+      chapters:
+        - chapters/p06-rings-order/01-rings.qmd
+        - chapters/p06-rings-order/02-modules.qmd
+        - chapters/p06-rings-order/03-tensors.qmd
+        - chapters/p06-rings-order/04-ordered-groups.qmd
+        - chapters/p06-rings-order/05-lattices.qmd
+    - part: chapters/p07-graphs/index.qmd
+      chapters:
+        - chapters/p07-graphs/01-graphs.qmd
+        - chapters/p07-graphs/02-incidence.qmd
+        - chapters/p07-graphs/03-flows.qmd
+        - chapters/p07-graphs/04-trees.qmd
+        - chapters/p07-graphs/05-cycles-cuts.qmd
+        - chapters/p07-graphs/06-homology.qmd
+        - chapters/p07-graphs/07-bookkeeping-graphs.qmd
+    - part: chapters/p08-categories/index.qmd
+      chapters:
+        - chapters/p08-categories/01-categories.qmd
+        - chapters/p08-categories/02-functors.qmd
+        - chapters/p08-categories/03-universal.qmd
+        - chapters/p08-categories/04-adjunctions.qmd
+        - chapters/p08-categories/05-monoidal.qmd
+        - chapters/p08-categories/06-spans.qmd
+    - part: chapters/p09-dynamics/index.qmd
+      chapters:
+        - chapters/p09-dynamics/01-sequences.qmd
+        - chapters/p09-dynamics/02-present-value.qmd
+        - chapters/p09-dynamics/03-stocks-flows.qmd
+        - chapters/p09-dynamics/04-differential-equations.qmd
+        - chapters/p09-dynamics/05-triple-entry.qmd
+        - chapters/p09-dynamics/06-probability.qmd
+    - part: chapters/p10-computation/index.qmd
+      chapters:
+        - chapters/p10-computation/01-automata.qmd
+        - chapters/p10-computation/02-data-structures.qmd
+        - chapters/p10-computation/03-databases.qmd
+        - chapters/p10-computation/04-plain-text.qmd
+        - chapters/p10-computation/05-error-detection.qmd
+        - chapters/p10-computation/06-types.qmd
+    - part: chapters/p11-lean/index.qmd
+      chapters:
+        - chapters/p11-lean/01-lean-basics.qmd
+        - chapters/p11-lean/02-mathlib.qmd
+        - chapters/p11-lean/03-accounts-entries.qmd
+        - chapters/p11-lean/04-pacioli-lean.qmd
+        - chapters/p11-lean/05-trial-balance-lean.qmd
+        - chapters/p11-lean/06-grothendieck-lean.qmd
+        - chapters/p11-lean/07-matrices-lean.qmd
+        - chapters/p11-lean/08-graphs-lean.qmd
+        - chapters/p11-lean/09-running-example-lean.qmd
+        - chapters/p11-lean/10-project.qmd
+    - part: chapters/p12-accounting/index.qmd
+      chapters:
+        - chapters/p12-accounting/01-consolidation.qmd
+        - chapters/p12-accounting/02-currency.qmd
+        - chapters/p12-accounting/03-cost.qmd
+        - chapters/p12-accounting/04-management.qmd
+        - chapters/p12-accounting/05-cash-flow.qmd
+        - chapters/p12-accounting/06-audit.qmd
+    - part: chapters/p13-economics/index.qmd
+      chapters:
+        - chapters/p13-economics/01-national-accounts.qmd
+        - chapters/p13-economics/02-input-output-tables.qmd
+        - chapters/p13-economics/03-sam.qmd
+    - part: chapters/p14-history/index.qmd
+      chapters:
+        - chapters/p14-history/01-origins.qmd
+        - chapters/p14-history/02-negative-numbers.qmd
+        - chapters/p14-history/03-algebra-of-accounts.qmd
+        - chapters/p14-history/04-japanese-research.qmd
+        - chapters/p14-history/05-open-problems.qmd
+  appendices:
+    - appendix/a-notation.qmd
+    - appendix/b-glossary.qmd
+    - appendix/c-running-example.qmd
+    - appendix/d-lean-tactics.qmd
+    - appendix/e-solutions.qmd
+    - appendix/f-references.qmd
+
+bibliography: references.bib
+lang: en
+
+number-sections: true
+number-depth: 2
+toc: true
+toc-depth: 3
+
+crossref:
+  chapters: true
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    html-math-method: mathjax
+    code-copy: true
+    code-link: false
+    syntax-definitions:
+      - syntax/lean4.xml
+    citations-hover: true
+    crossrefs-hover: true
+    link-external-newwindow: true
+  pdf:
+    documentclass: scrbook
+    classoption: [twoside]
+    papersize: a4
+    pdf-engine: lualatex
+    CJKmainfont: HaranoAjiMincho-Regular
+    syntax-definitions:
+      - syntax/lean4.xml
+    colorlinks: true
+    toc: true
+    lof: false
+    lot: false

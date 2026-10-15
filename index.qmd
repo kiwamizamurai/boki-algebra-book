@@ -1,0 +1,13 @@
+# Preface {.unnumbered}
+
+This book teaches university mathematics through one running example: double-entry bookkeeping. Each part takes the same small set of business transactions and describes them again in a new mathematical language. Sets and maps come first, then monoids and groups, vector spaces, graphs, and categories. The main theorems are formalized in Lean 4, so a reader can check them by machine.
+
+The book does not assume any knowledge of bookkeeping. It assumes high-school mathematics.
+
+## Why Part 0 comes first
+
+Before any mathematics, Part 0 shows how the material in this book was found. It treats "the algebra of bookkeeping" as a research topic and walks through the search that produced this book's bibliography: the queries, the databases, the tools that worked, and the tools that failed. Every search reported in Part 0 was carried out on 15 October 2026, and the results describe what the tools returned on that day. Search results change over time, so a reader who repeats a search should expect different numbers.
+
+## A rule this book follows
+
+Every factual claim in this book is checked against a source before it is written down, and a claim that cannot be checked is left out. Bibliographic data was checked against Crossref, arXiv, CiNii Research, Internet Archive catalog records, publishers' pages, or the papers themselves. The searches behind Part 0 are recorded in `research/log.md`.

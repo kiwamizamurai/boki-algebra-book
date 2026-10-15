@@ -1,0 +1,48 @@
+# Collecting Keywords {#sec-keywords}
+
+A search engine matches words. If the authors of a paper used a different word from yours, the search misses the paper. This chapter shows how we collected the words that authors in this field use.
+
+## Each field has its own name for the idea
+
+The same idea appears under different names in different fields. These are the names we found in titles and abstracts during our search:
+
+| Name used by authors | Where we found it |
+| --- | --- |
+| double-entry bookkeeping | title of @ellerman2014 |
+| group of differences, Pacioli group | abstract of @ellerman2014 |
+| double entry multidimensional accounting | title of @ellerman1986 |
+| algebraic model of accounting systems | title of @nehmer1997 |
+| algebraic automaton | title of @rambaud2005 |
+| matrix-based accounting system | title of @leech1986 |
+| inferring transactions from financial statements | title of @arya2000 |
+| bookkeeping graphs | title of @liang2023 |
+| partita doppia, spans of reflexive graphs | title and abstract of @katis2008 |
+| triple-entry bookkeeping | title of @ijiri1986 |
+| 簿記代数 (Japanese: "bookkeeping algebra") | title of @ozawa2023matrix |
+
+Two lessons follow from this table.
+
+First, the name of a mathematical structure can be a sharper search term than the name of the subject. The abstract of @ellerman2014 introduces the name "Pacioli group" for the group of differences used in bookkeeping, so the term points to this line of work.
+
+Second, the historical Italian name *partita doppia* is the title of a category theory paper [@katis2008]. Its title does not contain the English words "double-entry bookkeeping," so a search restricted to titles in English would miss it. In our search it appeared in response to a Google Scholar query that combined "double-entry," "bookkeeping," and "category theory."
+
+## Where the words came from
+
+We collected these terms in a loop:
+
+1. Search with the words we already had.
+2. Read the titles and abstracts of the results.
+3. Add any new names for the idea to the list.
+4. Search again with the new words.
+
+The loop stops when new searches return only papers already in the log. In our search, the first query used the words "algebra," "bookkeeping," and "double-entry." The term "Pacioli group" came from the abstract of the first relevant paper, and "bookkeeping graphs" came from a later query that added "graph theory."
+
+## Keywords in a second language
+
+For Japanese sources we used terms taken from Japanese titles. The term 簿記代数 ("bookkeeping algebra") appears in a Japanese paper title [@ozawa2023matrix], and searching for that exact term in a Japanese database found that paper directly (@sec-japanese).
+
+## Exercises
+
+1. For your topic from @sec-question, list at least five names for the central idea. For each, record where you found it.
+2. Run the loop in this chapter twice. Record in your log which new terms the second round added.
+3. Find one term for your topic in a language other than English. Search for it, and compare the results with the English search.

@@ -1,0 +1,21 @@
+# The Algebra of Accounts, from Sprague Onward {#sec-p14-algebra-of-accounts}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Sprague's algebra of accounts
+- Axioms of accounting measurement
+- The group of differences
+
+## Exercises
+
+- To be written.
+
+## Further reading
+
+- @sprague1880; @sprague1908; @ijiri1965; @ellerman1985

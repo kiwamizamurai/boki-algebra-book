@@ -1,0 +1,25 @@
+# The Pacioli Group {#sec-p04-pacioli-group}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- The group of differences on pairs of unsigned numbers
+- Proof that it is a group
+- Isomorphism with the integers and the reals
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.
+
+## Further reading
+
+- @ellerman1985; @ellerman2014

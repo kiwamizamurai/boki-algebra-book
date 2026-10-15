@@ -1,0 +1,21 @@
+# Number Systems {#sec-p01-numbers}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Natural numbers, integers, rationals, and reals: an outline of their construction
+- Integers built from pairs of natural numbers
+- Bookkeeping example: the T-account as a pair of unsigned amounts
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

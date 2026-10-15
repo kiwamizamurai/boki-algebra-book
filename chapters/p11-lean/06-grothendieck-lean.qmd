@@ -1,0 +1,20 @@
+# Comparing with the Grothendieck Group in Mathlib {#sec-p11-grothendieck-lean}
+
+Level: ★★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Mathlib's `GrothendieckGroup`
+- An isomorphism with the Pacioli group
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

@@ -1,0 +1,9 @@
+# The Running Example in Full
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- All transactions, the journal, the ledger, and the statements

@@ -1,0 +1,23 @@
+# The Cash Flow Statement, Algebraically {#sec-p12-cash-flow}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Deriving the indirect cash flow statement from balance sheet differences
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.
+
+## Further reading
+
+- @ozawa2023cashflow

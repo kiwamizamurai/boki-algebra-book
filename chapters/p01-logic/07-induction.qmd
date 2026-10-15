@@ -1,0 +1,21 @@
+# Induction and Recursion {#sec-p01-induction}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Mathematical induction and strong induction
+- Recursive definitions
+- Bookkeeping example: the trial balance stays balanced after any number of balanced entries
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

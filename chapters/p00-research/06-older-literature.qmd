@@ -1,0 +1,30 @@
+# Finding Older Literature {#sec-older}
+
+The oldest work in this book's bibliography was written in 1880. Finding and checking work that old took us different tools and more steps than finding recent papers.
+
+## Digitized books: the Internet Archive
+
+The Internet Archive holds scanned copies of old books, including the one discussed in this section. It offers an advanced search that returns results as JSON, so a search can be logged exactly. We queried it for books with "philosophy of accounts" in the title and "Sprague" as creator. It returned eight records of *The Philosophy of Accounts* by Charles Ezra Sprague (1842–1912), dated 1908, 1920, 1922, and 1972. This book cites the 1908 scan [@sprague1908].
+
+When a book exists in several editions, record which edition you read. Page numbers and even content can change between editions.
+
+## A nineteenth-century article
+
+Several modern papers cite a series of articles by Sprague titled "The Algebra of Accounts" from 1880. Our Internet Archive search did not return the 1880 issues of the periodical, but the articles were reprinted in a collection edited by Richard Brief, first published in 1982 and reissued in 2013 [@brief1982]. The Internet Archive's catalog record for the 1982 edition lists Sprague's "The algebra of accounts" among its contents. In the publisher's table of contents for the 2013 reissue, the chapter carries the note that it was written for *The Book-keeper*. This book cites the reprint [@sprague1880].
+
+The same publisher page also shows how catalog data can go wrong. It lists the chapter's author as "Charles E. Spraoue," credits two other chapters to the editor instead of their authors, and shows a description that belongs to a different book on depreciation. Take the facts you need from the reprinted text and from more than one record.
+
+## History papers as guides
+
+Papers on the history of accounting can point to older primary sources. Two that our searches found have titles that match this book's themes:
+
+- @peters1978, on the role of negative numbers in the development of double-entry bookkeeping;
+- @stone2021, on the connection between Luca Pacioli, algebra, and double entry.
+
+Part XIV returns to them.
+
+## Exercises
+
+1. Search the Internet Archive for an old book related to your topic. Record the identifier and date of each edition it holds.
+2. Find one reference in a modern paper that points to a source older than 1950. Try to locate the original. Record whether you succeeded.
+3. Add an "open items" section to your research log, and list every reference you have not checked against an original.

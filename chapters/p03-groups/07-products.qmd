@@ -1,0 +1,21 @@
+# Direct Products and Direct Sums {#sec-p03-products}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Direct products and direct sums
+- Universal properties
+- Bookkeeping example: several currencies and several goods
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

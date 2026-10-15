@@ -1,0 +1,21 @@
+# Matrices and Linear Maps {#sec-p05-matrices}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Matrix multiplication
+- The matrix of a linear map
+- Bookkeeping example: a journal entry as a matrix
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

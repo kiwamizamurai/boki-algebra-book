@@ -1,0 +1,3 @@
+# Part IV: The Group of Differences {.unnumbered}
+
+Part IV is the core of the book. It builds the group of differences from T-accounts and uses it to state and prove the rules of double entry.

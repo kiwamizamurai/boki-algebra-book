@@ -1,0 +1,21 @@
+# Writing Proofs {#sec-p01-proofs}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Direct proof, contrapositive, contradiction, and proof by cases
+- How to read and write a proof
+- A first proof in Lean: definitions, `theorem`, and simple tactics
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

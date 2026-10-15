@@ -1,0 +1,24 @@
+# Multi-Dimensional Bookkeeping {#sec-p04-multidimensional}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Pairs of vectors
+- Several kinds of property in one ledger
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.
+
+## Further reading
+
+- @ellerman1986; @ellerman2014

@@ -1,0 +1,20 @@
+# Subgroups and Cosets {#sec-p03-subgroups}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Subgroups
+- Cosets and Lagrange's theorem
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

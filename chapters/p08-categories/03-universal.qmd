@@ -1,0 +1,20 @@
+# Universal Properties {#sec-p08-universal}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Products, coproducts, initial and terminal objects
+- The Grothendieck group by its universal property
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

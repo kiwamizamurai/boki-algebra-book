@@ -1,0 +1,9 @@
+# Glossary
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Bookkeeping terms and their mathematical counterparts, in English and Japanese

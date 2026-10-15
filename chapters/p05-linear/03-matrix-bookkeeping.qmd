@@ -1,0 +1,24 @@
+# Matrix Bookkeeping {#sec-p05-matrix-bookkeeping}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Transaction matrices with debit accounts as rows and credit accounts as columns
+- The trial balance from row sums and column sums
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.
+
+## Further reading
+
+- @leech1986; @ozawa2023matrix

@@ -1,0 +1,30 @@
+# Searching Literature in Japanese {#sec-japanese}
+
+Part of the work on the algebra of bookkeeping is written in Japanese. The papers in this chapter appeared in a university bulletin and are available from a university repository. This chapter introduces the Japanese databases we used and shows how their results differed.
+
+## The databases
+
+- **CiNii Research**, run by the National Institute of Informatics (NII), searches several kinds of records from one box: data, articles, books, dissertations, research projects, and researchers.
+- **IRDB** (Institutional Repositories DataBase) is also run by NII. As its name says, it is a database of institutional repositories.
+- **J-STAGE** is a platform for scholarly publications in Japan, developed and managed by the Japan Science and Technology Agency (JST). Its overview page lists more than 4,000 journals, proceedings, and other publications from more than 2,400 publishers in Japan.
+- **NDL Search**, run by the National Diet Library, searches the library's own printed and digital holdings. It also searches bibliographic and location information for books held by prefectural and municipal libraries, and materials from university and specialty libraries and research institutions across Japan.
+
+## A worked example: one term, two tools
+
+The Japanese term 簿記代数 ("bookkeeping algebra") came from our keyword loop (@sec-keywords): a Google Scholar query in Japanese (簿記 代数 構造 OR 複式簿記 数学 群) returned a paper whose title contains it. On 15 October 2026 we then searched two tools.
+
+**CiNii Research.** A search for 簿記代数 across all record types returned one result: @ozawa2023matrix, published in 2023 in the bulletin 商学研究科紀要, no. 97, pp. 79–96.
+
+**Google Scholar.** A search for the author of that paper together with 複式簿記 ("double-entry bookkeeping") returned three papers by this author with PDFs in the Waseda University repository: @ozawa2023matrix, @ozawa2023cashflow, and @ozawa2026. It also listed one co-authored paper without a PDF. The title of the 2026 paper refers to a monoid structure of records and a group structure of net balances, the distinction that this book develops in Part IV.
+
+The two tools returned different sets. The CiNii search used one term, and only one of the three titles contains that exact term. The Scholar search used the author's name. A single query in a single database is a sample of the literature, and the log should record which query produced which result.
+
+## Reading a title in another language
+
+If you cannot read the language of a paper, record the original title exactly as published and add your own translation in brackets, marked as yours. This book's bibliography follows that rule for every Japanese title. Do not romanize a title unless you have checked the reading, because a wrong reading makes the reference harder to find.
+
+## Exercises
+
+1. Search CiNii Research for a term from your topic. Record how many results each record type (articles, books, dissertations) returned.
+2. Search for the same term in Google Scholar. Which results appear in one tool and not the other?
+3. For one paper you found, locate the repository record and write a complete reference for it.

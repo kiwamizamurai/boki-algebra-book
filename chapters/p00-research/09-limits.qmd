@@ -1,0 +1,47 @@
+# Limits and Pitfalls {#sec-limits}
+
+Several tools in Part 0 failed us at least once. This chapter records those failures, because a reader who repeats our search may meet the same ones.
+
+## Usage limits
+
+**Connected Papers.** The free plan allows five graphs per month; the paid plans allow unlimited graphs. In our session, the first two graphs loaded. When we then requested graphs for @arya2000 and for a work titled *Momentum Accounting and Triple Entry Bookkeeping: Exploring the Dynamic Structure of Accounting Measurements*, the page asked us to log in and reported that the monthly graph limit had been reached. We did not see those two graphs.
+
+**Semantic Scholar API.** Unauthenticated requests share one rate limit across all unauthenticated users (@sec-citations). Our unauthenticated search requests on 15 October 2026 were refused with the message "Too Many Requests," which suggests requesting an API key.
+
+**Crossref API.** Some of our requests from the browser were refused with HTTP status 429, which signals too many requests. The same queries succeeded later from the command line.
+
+Record each limit in the log, then continue with another tool. After the Semantic Scholar refusal we continued with Google Scholar.
+
+## Gaps in documentation
+
+We looked for a description of Google Scholar's `author:` search operator in its search help page and did not find one there. Part 0 therefore teaches only the Scholar features we found documented: sorting by date, "Cited by," "Related articles," "All versions," and following a paper's references.
+
+## A registry match that was a different record
+
+When we sent the citation of Ijiri's 1965 paper to Crossref, the best match had the right title and author but was a 2018 reprint in the journal *Accounting, Economics, and Law: A Convivium*. A reader who copied that record would cite the wrong year and the wrong journal. Restricting the query to works published before 1967 returned the original in *The Accounting Review* [@ijiri1965], but that record spells the author's name "Tjiri." Compare every field of a registry match with your source before you accept it (@sec-first-paper).
+
+## Copies from sites that are not the publisher
+
+General web searches return PDFs from many kinds of sites. Our second web query returned a PDF of a book on accounting history from a document-sharing site. We could not establish that the site had the right to distribute the book, so this book does not use that copy. Use the publisher's version, an author's copy, a preprint server, or a library.
+
+## Fabricated references from chatbots
+
+@walters2023 asked ChatGPT-3.5 and ChatGPT-4 to write short literature reviews on 42 topics and checked the 636 references in the 84 resulting papers. They report that 55% of the GPT-3.5 references and 18% of the GPT-4 references were fabricated, that is, they did not correspond to any real work. Among the references to real works, 43% from GPT-3.5 and 24% from GPT-4 contained substantive citation errors.
+
+A language model can help to brainstorm search terms. It cannot replace a check against the source. Every reference in this book was checked against the source, a registry record, or an archive record.
+
+## Our own near-misses
+
+The rules in this part come partly from mistakes we caught while writing it.
+
+- We first wrote that a search restricted to the English term "double-entry" would miss the category theory paper @katis2008. The Scholar search log showed that a query containing "double-entry" did return it. We corrected the text in @sec-keywords.
+- We first romanized the Japanese titles in the bibliography without checking their readings. We replaced the romanizations with the original titles and marked our translations (@sec-japanese).
+- We first listed @nehmer1997 among the neighbors of @ellerman2014 in the Connected Papers graph. It appeared in a different graph. We corrected @sec-citations.
+
+We caught each error by comparing the text with the records of our searches.
+
+## Exercises
+
+1. Record every usage limit you meet during your own search, with the date and the exact message.
+2. Send three citations from your bibliography to Crossref. For each, compare every field of the best match with your source.
+3. Ask a chatbot for five references on your topic. Check each one, and record which ones exist and which contain errors.

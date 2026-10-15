@@ -1,0 +1,20 @@
+# Graphs {#sec-p07-graphs}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Directed graphs, multigraphs, paths, and connectivity
+- The bookkeeping graph: accounts as vertices, transactions as edges
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

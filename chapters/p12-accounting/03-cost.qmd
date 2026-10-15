@@ -1,0 +1,20 @@
+# Cost Accounting {#sec-p12-cost}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Departmental costing and service department allocation as linear systems
+- Standard costing and variance analysis
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

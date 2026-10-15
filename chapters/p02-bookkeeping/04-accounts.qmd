@@ -1,0 +1,17 @@
+# Accounts and Posting {#sec-p02-accounts}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- T-accounts
+- The general ledger
+- Posting from the journal to the ledger
+
+## Exercises
+
+- To be written.

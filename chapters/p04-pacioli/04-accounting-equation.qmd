@@ -1,0 +1,20 @@
+# The Accounting Equation, Algebraically {#sec-p04-accounting-equation}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- The balance sheet as a sum of balanced entries
+- Closing revenue and expense accounts into equity
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

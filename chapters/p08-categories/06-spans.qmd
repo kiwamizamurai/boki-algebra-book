@@ -1,0 +1,24 @@
+# Spans and Cospans {#sec-p08-spans}
+
+Level: ★★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Spans, cospans, and their composition
+- Partita doppia in terms of spans of reflexive graphs
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.
+
+## Further reading
+
+- @katis2008

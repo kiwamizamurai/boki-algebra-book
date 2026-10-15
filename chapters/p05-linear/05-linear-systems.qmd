@@ -1,0 +1,21 @@
+# Systems of Linear Equations {#sec-p05-linear-systems}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Gaussian elimination
+- Existence and uniqueness of solutions
+- Recovering transactions from financial statements
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

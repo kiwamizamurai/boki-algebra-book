@@ -26,23 +26,6 @@ Quarto does not run Lean code, so the two have separate jobs.
 2. The book includes the relevant parts of those files with `{{< include >}}` and shows them as `lean` code blocks.
 3. CI runs both `lake build` and `quarto render`, so every Lean snippet in the book is code that compiles.
 
-### Claude Code setup
-
-The book is written and formalized with Claude Code. Every skill and MCP server is pinned to a version.
-
-| Purpose | Name | Pinned version | Location |
-| --- | --- | --- | --- |
-| Proofreading Japanese text | yomiyasu | tag v1.1.2 | `.claude/settings.json` |
-| Proofreading English text | humanizer | tag v3.1.0 | `.claude/settings.json` |
-| Checking English text | stop-slop | commit 8da1f03 | `.claude/skills/stop-slop/` |
-| Lean formalization and proof workflow | lean4-skills (plugin `lean4`) | tag v4.11.3 | `.claude/settings.json` |
-| Lean library design and style | writing-lean-proofs (Trail of Bits) | commit e1f86a3 | `.claude/skills/writing-lean-proofs/` |
-| Lean goal states for Claude | lean-lsp-mcp | 0.31.0 | `.mcp.json` |
-
-Repositories without tags are vendored at a fixed commit under `.claude/skills/`. Each folder's `SOURCE.md` records where the files came from.
-
-The working rules are in `.claude/rules/` (written in Japanese): `research.md` (no guesses; check every claim, and ask the user when a check needs their action), `proofreading.md` (proofread every text with the skills above: yomiyasu for Japanese, humanizer and stop-slop for English), and `comments.md` (no comments in code or configuration files).
-
 ## Bibliography
 
 The references used in the book are in [`references.bib`](references.bib). Every entry was checked against Crossref, arXiv, CiNii Research, an Internet Archive catalog record, a publisher's page, or the paper itself. The searches that found them are recorded in [`research/log.md`](research/log.md), and Part 0 of the book walks through them.
@@ -285,17 +268,6 @@ Tool versions are pinned in `mise.toml` (Quarto 1.10.19, elan 4.2.4) and `lean/l
 
 PDF output also needs TeX Live with LuaLaTeX and LuaTeX-ja.
 
-## Status
-
-- [x] README
-- [x] Plan of contents
-- [x] Quarto book scaffold (`_quarto.yml`, `index.qmd`)
-- [x] Part 0 drafted
-- [x] Lean project scaffold
-- [ ] PDF typesetting settings
-- [ ] CI for `lake build` and `quarto render`
-- [ ] Parts I–XIV
-
 ## License
 
-Not decided yet. One option is CC BY-SA 4.0 for the text and Apache 2.0 for the Lean code.
+[MIT](LICENSE). The skills vendored under `.claude/skills/` keep their own licenses: stop-slop is MIT, and writing-lean-proofs is CC BY-SA 4.0. Each folder contains its license and a `SOURCE.md` that names the original repository.

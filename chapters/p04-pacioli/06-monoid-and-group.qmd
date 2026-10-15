@@ -1,0 +1,25 @@
+# The Monoid of Records and the Group of Balances {#sec-p04-monoid-and-group}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Accumulating records as a commutative monoid
+- Net balances as an abelian group
+- Totals trial balance and balances trial balance
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.
+
+## Further reading
+
+- @ozawa2026

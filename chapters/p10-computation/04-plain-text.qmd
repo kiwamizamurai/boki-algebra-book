@@ -1,0 +1,20 @@
+# Plain-Text Accounting {#sec-p10-plain-text}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Ledgers kept as text files
+- Checking the theorems of this book on a real ledger file
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

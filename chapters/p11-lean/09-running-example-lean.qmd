@@ -1,0 +1,20 @@
+# Checking the Running Example in Lean {#sec-p11-running-example-lean}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Entering one year of transactions
+- Checking that the statements satisfy the accounting equation
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

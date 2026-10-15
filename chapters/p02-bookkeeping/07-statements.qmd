@@ -1,0 +1,17 @@
+# Financial Statements {#sec-p02-statements}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- The balance sheet
+- The income statement
+- An introduction to the cash flow statement
+
+## Exercises
+
+- To be written.

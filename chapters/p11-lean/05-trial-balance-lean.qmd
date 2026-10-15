@@ -1,0 +1,20 @@
+# Proving That the Trial Balance Balances {#sec-p11-trial-balance-lean}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- The sum of balanced entries is balanced
+- A proof by induction
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

@@ -1,0 +1,16 @@
+# The Trial Balance {#sec-p02-trial-balance}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Totals and balances
+- Errors a trial balance detects and errors it cannot detect
+
+## Exercises
+
+- To be written.

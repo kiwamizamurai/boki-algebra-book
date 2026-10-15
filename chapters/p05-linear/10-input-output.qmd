@@ -1,0 +1,20 @@
+# Input-Output Analysis {#sec-p05-input-output}
+
+Level: ★★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- The Leontief matrix and its inverse
+- Allocating service department costs as a linear system
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

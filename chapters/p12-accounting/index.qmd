@@ -1,0 +1,3 @@
+# Part XII: Applications in Accounting {.unnumbered}
+
+Part XII applies the mathematics of earlier parts to further accounting topics.

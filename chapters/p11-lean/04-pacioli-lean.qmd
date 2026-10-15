@@ -1,0 +1,20 @@
+# Building the Pacioli Group {#sec-p11-pacioli-lean}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- The type of pairs, an equivalence relation, and the quotient type
+- An `AddCommGroup` instance
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

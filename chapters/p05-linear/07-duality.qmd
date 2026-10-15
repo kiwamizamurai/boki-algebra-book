@@ -1,0 +1,21 @@
+# Inner Products and Duality {#sec-p05-duality}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Inner products and orthogonal complements
+- Dual spaces
+- Bookkeeping example: prices as linear functionals that turn quantities into amounts
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

@@ -1,0 +1,38 @@
+# Writing Up the Survey {#sec-writing-up}
+
+The last step turns the log into something another reader can use. This chapter shows the summary we wrote for this book.
+
+## A timeline
+
+Sorting the checked references by year shows when each line of work appeared.
+
+| Year | Work | Line |
+| --- | --- | --- |
+| 1880 | @sprague1880 | Early theory |
+| 1908 | @sprague1908 | History |
+| 1965 | @ijiri1965 | Axioms |
+| 1978 | @peters1978 | History |
+| 1985 | @ellerman1985 | Groups |
+| 1986 | @ellerman1986, @leech1986, @ijiri1986 | Groups, matrices, extensions |
+| 1997 | @nehmer1997 | Algebraic models |
+| 2000 | @arya2000 | Linear algebra |
+| 2004 | @arya2004 | Linear algebra |
+| 2005 | @rambaud2005 | Automata |
+| 2008 | @katis2008 (written 1998) | Category theory |
+| 2010 | @rambaud2010 | Algebraic models |
+| 2014 | @ellerman2014 | Groups |
+| 2021 | @stone2021 | History |
+| 2023 | @liang2023, @ozawa2023matrix, @ozawa2023cashflow | Graphs, matrices |
+| 2026 | @ozawa2026 | Monoids and groups |
+
+The table lists only the works in this book's bibliography. It is not a complete history of the field.
+
+## Where this book stands
+
+The works in the timeline apply different areas of mathematics to bookkeeping: groups, algebraic models and automata, matrices, graphs, and categories. Part 0 shows that each of these areas has been applied to bookkeeping before. This book takes them one at a time, on a single running example, and checks its main theorems in Lean. A survey can show that a piece of work exists; a search that finds nothing is weaker evidence, because the work may exist under words we did not search for.
+
+## Exercises
+
+1. Build a timeline of the references in your log.
+2. Write one paragraph that places your own project relative to the work you found. State what your search did not find, and how strong that evidence is.
+3. For each claim in your paragraph, name the source in your log that supports it.

@@ -1,0 +1,25 @@
+# Least Squares and Generalized Inverses {#sec-p05-least-squares}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Normal equations and projections
+- The Moore-Penrose inverse
+- Estimating transactions from statements
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.
+
+## Further reading
+
+- @arya2000

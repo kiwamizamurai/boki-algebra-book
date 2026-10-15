@@ -1,0 +1,20 @@
+# The Ledger as a Data Structure {#sec-p10-data-structures}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Data structures for journal entries
+- Append-only records
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

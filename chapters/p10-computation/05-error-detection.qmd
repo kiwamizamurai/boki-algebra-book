@@ -1,0 +1,20 @@
+# Error Detection {#sec-p10-error-detection}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Parity checks and error-correcting codes
+- Double entry as redundancy for detecting errors
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

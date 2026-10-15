@@ -1,0 +1,20 @@
+# Tensor Products {#sec-p06-tensors}
+
+Level: ★★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Tensor products of modules
+- Bookkeeping example: combining quantities and unit prices
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

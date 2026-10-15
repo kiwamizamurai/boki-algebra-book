@@ -1,0 +1,21 @@
+# Monoids {#sec-p03-monoids}
+
+Level: ★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Definition and examples
+- Free monoids
+- Bookkeeping example: the journal as a sequence of entries
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.

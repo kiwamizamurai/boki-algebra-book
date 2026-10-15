@@ -1,0 +1,25 @@
+# Modules {#sec-p06-modules}
+
+Level: ★★
+
+::: {.callout-note}
+This chapter is a placeholder. The sections below list what it will cover.
+:::
+
+## Planned sections
+
+- Modules over a ring
+- Abelian groups as modules over the integers
+- Quantities over the integers and amounts over the reals
+
+## Exercises
+
+- To be written.
+
+## Formalization
+
+- The Lean file for this chapter will be added under `lean/BokiAlgebra/`.
+
+## Further reading
+
+- @rambaud2010
