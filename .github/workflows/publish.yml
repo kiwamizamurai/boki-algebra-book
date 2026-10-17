@@ -19,6 +19,8 @@ jobs:
         with:
           version: 1.10.19
           tinytex: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install Japanese typesetting packages
         run: |
